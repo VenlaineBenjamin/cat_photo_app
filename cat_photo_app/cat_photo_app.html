@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <p>See more <a href="#" target="_blank">cat photos </a> in our gallery</p>
+    <img src="image/relaxing-cat.jpg" alt="relaxing-cat" />
+    <h2>Cat Lists</h2>
+    <h3>Things cats love:</h3>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <figure>
+      <img src="image/lasagna.jpg" alt="lasagna" />
+      <figcaption>Cats <em>love </em>lasagna.</figcaption>
+    </figure>
+    <h3>Top 3 things cat hate:</h3>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <figure>
+      <img src="image/cats.jpg" alt="cats" />
+      <figcaption>Cats <strong>hate </strong>other cats.</figcaption>
+    </figure>
+    <h2>Cat Form</h2>
+    <form action="get" action="">
+      <fieldset>
+        <legend>Is your cat an indoor or outdoor cat ?</legend>
+        <input type="radio" name="cat" value="indoor" id="indoor" /><label
+          for="indoor"
+          >Indoor</label
+        >
+        <input type="radio" name="cat" value="outdoor" id="outdoor" /><label
+          for="outdoor"
+          >Outdoor</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>What's your cat's personality ?</legend>
+        <input type="checkbox" name="cat" id="Loving" /><label for="Loving"
+          >Loving</label
+        >
+        <input type="checkbox" name="cat" id="Lazy" /><label for="Lazy"
+          >Lazy</label
+        >
+        <input type="checkbox" name="cat" id="energetic" /><label
+          for="energetic"
+          >Energetic</label
+        >
+      </fieldset>
+      <input
+        type="url"
+        name="url"
+        id="url"
+        pattern="http://.*"
+        size="30"
+        required
+        placeholder="cat photo URl"
+      />
+      <input type="submit" value="Submit" />
+    </form>
+    <p>
+      No Copyright -
+      <a href="freecodecamp.org" target="_blank">FreeCodeCamp.org</a>
+    </p>
+  </body>
+</html>
